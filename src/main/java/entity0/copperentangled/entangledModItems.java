@@ -15,5 +15,5 @@ public class entangledModItems {
         return registeredItem;
     }
     public static void initialize() {}
-    public static final Item EntangledCopper = register(new rodOfLightning(new Item.Settings()), "EntangledCopper");
+    public static final Item EntangledCopper = register(new EntangledCopper(new Item.Settings()), "entangled_copper");
 }
